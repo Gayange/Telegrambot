@@ -4,8 +4,8 @@ from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Replace with your Telegram Bot API token and Google Maps API key
-TELEGRAM_API_TOKEN = "7881186442:AAFbez8X46jalBjiFe_nz-UDFa6ePQFYi00"
-GOOGLE_MAPS_API_KEY = "AIzaSyAtXPDlFXzZTuarUgQPX-SOMD8wbQve5CM"
+TELEGRAM_API_TOKEN = ""
+GOOGLE_MAPS_API_KEY = ""
 
 # Initialize database
 def init_db():
